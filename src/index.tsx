@@ -4,7 +4,7 @@ import * as ReactDOMClient from 'react-dom/client';
 import { App } from './components/App';
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOMClient.createRoot(document.getElementById('root')!)
+const root = ReactDOMClient.createRoot(document.getElementById('gradientBackground')!)
 root.render(
 	<React.StrictMode>
 		<App />
